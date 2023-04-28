@@ -5,6 +5,7 @@ import uuid
 
 flask_app = Flask(__name__)
 flask_app.secret_key = 'your_secret_key'
+#API permission needed: Group.Read.All, TeamMember.Read.All, User.Read.All, Presence.Read.All
 
 # Replace these placeholders with your own values
 client_id = 'your client_ID'
